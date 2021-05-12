@@ -1,1 +1,1 @@
-worker: python ping.py
+worker: python producer.py
