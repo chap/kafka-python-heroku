@@ -3,8 +3,7 @@ import kafka_helper
 while True:
     producer = kafka_helper.get_kafka_producer()
     print('sending message')
-    v = (1024).to_bytes
-    producer.send('connecticut-84549.my-topic', key='my key', value=v)
+    producer.send('connecticut-84549.my-topic', key='my key', value='my value')
 
     print('reading message')
     consumer = kafka_helper.get_kafka_consumer('connecticut-84549.my-topic')
