@@ -6,4 +6,4 @@ topic = os.environ['KAFKA_PREFIX'] + 'my-topic'
 print('sending message topic:', topic)
 while: True
   producer.send(topic, value='my value')
-  sleep(10)
+  time.sleep(10)
