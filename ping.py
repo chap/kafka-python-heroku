@@ -8,4 +8,4 @@ while True:
   for message in consumer:
       print(message)
 
-  time.sleep(10000)
+  time.sleep(1000)
