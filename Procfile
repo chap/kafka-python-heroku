@@ -1,1 +1,2 @@
-worker: python producer.py
+producer: python producer.py
+consumer: python consumer.py
